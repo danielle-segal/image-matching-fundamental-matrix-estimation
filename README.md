@@ -23,15 +23,7 @@ estimate.
 4. **Robust fallback** - any failure along the pipeline (missing/corrupt images, insufficient
    correspondences, a degenerate fit) falls back to the identity matrix, so a single bad pair
    never aborts a full run.
-
-## Project structure
-
-```
-.
-├── project.ipynb        # Main notebook: end-to-end matching + fundamental matrix pipeline
-├── requirements.txt      # Python dependencies
-└── README.md
-```
+   
 
 ## Setup
 
