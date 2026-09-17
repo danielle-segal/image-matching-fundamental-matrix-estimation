@@ -7,7 +7,7 @@ Estimating the fundamental matrix between pairs of images using [RoMa](https://g
 
 Given a pair of uncalibrated images, this project estimates the **fundamental matrix** - the
 3×3 matrix that encodes the epipolar geometry relating the two views. Rather than relying on
-classical sparse keypoint detectors (e.g. SIFT/ORB), correspondences are generated with **RoMa**,
+classical sparse keypoint detectors, correspondences are generated with **RoMa**,
 a dense deep feature matching model, and then filtered and refined into a fundamental matrix
 estimate.
 
