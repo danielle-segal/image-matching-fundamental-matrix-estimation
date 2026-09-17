@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Open `project.ipynb` and run all cells top to bottom. It expects a dataset directory containing:
+Run python project.py from the project directory. It expects a dataset directory containing:
 
 - `test.csv` - one row per image pair (`sample_id, batch_id, image_1_id, image_2_id`)
 - `test_images/<batch_id>/<image_id>.jpg` - the corresponding images
