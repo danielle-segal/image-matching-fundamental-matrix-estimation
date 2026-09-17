@@ -1,0 +1,8 @@
+numpy
+opencv-python
+matplotlib
+tqdm
+torch
+torchvision
+timm
+git+https://github.com/Parskatt/RoMa
