@@ -31,7 +31,7 @@ estimate.
 pip install -r requirements.txt
 ```
 
-> The notebook was developed and run on a Kaggle GPU environment (NVIDIA T4).
+> The script was developed and run on a Kaggle GPU environment (NVIDIA T4).
 
 ## Usage
 
@@ -40,7 +40,7 @@ Run python project.py from the project directory. It expects a dataset directory
 - `test.csv` - one row per image pair (`sample_id, batch_id, image_1_id, image_2_id`)
 - `test_images/<batch_id>/<image_id>.jpg` - the corresponding images
 
-The notebook writes a `submission.csv` with one estimated fundamental matrix per row, flattened
+The script writes a `submission.csv` with one estimated fundamental matrix per row, flattened
 to a space-separated string.
 
 ## Acknowledgments
